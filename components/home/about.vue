@@ -62,11 +62,14 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 
-    img:hover {
-      transform: scale(1.1);
-    }
+
+  }
+
+  .social-links img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
   }
 }
 
