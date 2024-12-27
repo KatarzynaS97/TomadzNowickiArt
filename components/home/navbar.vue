@@ -9,10 +9,9 @@
         <a href="/" class="name links">Tomasz Nowicki Art</a>
       </li>
       <li><span class="dot">•</span></li>
-      <li><a href="#links" class="links">GALERIA</a></li>
+      <li><a href="#galleria" class="links">GALERIA</a></li>
       <li><span class="dot">•</span></li>
       <li><a href="#contact" class="links">KONTAKT</a></li>
-
     </ul>
   </nav>
 </template>
@@ -60,7 +59,6 @@
     font-size: 1.2em;
     color: #99ccff;
     text-shadow: 0 0 5px;
-
   }
 }
 </style>
