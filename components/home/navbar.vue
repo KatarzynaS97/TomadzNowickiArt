@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <ul class="navbar-menu">
-      <li><a href="#home" class="links">STRONA GŁÓWNA</a></li>
+      <li><a href="#start" class="links">STRONA GŁÓWNA</a></li>
       <li><span class="dot">•</span></li>
       <li><a href="#about" class="links">O MNIE</a></li>
       <li><span class="dot">•</span></li>
@@ -25,6 +25,10 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtelny cień */
 
 
   &-menu {
