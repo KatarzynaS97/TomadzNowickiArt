@@ -92,4 +92,36 @@ const images = ref([
   }
 }
 
+@media (max-width: 1024px) {
+  .gallery-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-title {
+    font-size: 1.5rem;
+  }
+
+  .image-galley {
+    width: 100%;
+  }
+
+  .image-item {
+    width: 70px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-title {
+    font-size: 1.2rem;
+  }
+
+  .image-item {
+    width: 60px;
+    height: auto;
+  }
+}
+
 </style>

@@ -65,4 +65,22 @@
     text-shadow: 0 0 5px;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+    gap: 5px;
+    background-color: #002e63;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-menu {
+    flex-direction: column;
+    background-color: #002e63;
+    width: 100%;
+    gap: 5px;
+  }
+}
 </style>

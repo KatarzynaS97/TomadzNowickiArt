@@ -67,4 +67,36 @@ h2 {
     color: #fff;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 15px;
+  }
+
+  .info-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .info-icon {
+    width: 4em;
+    height: 4em;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 10px;
+  }
+
+  .info-icon {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .info-item h3 {
+    font-size: 1.1em;
+  }
+}
 </style>
